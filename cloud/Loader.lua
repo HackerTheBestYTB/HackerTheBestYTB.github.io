@@ -29,10 +29,11 @@ local tableofplaceid = {
 --end
 
 
-
+--[[
 if _G.Key1002 ~= nil and _G.Key2000 ~= nil and _G.Key2001 ~= nil then
 	success()
 else
 	fail()
 end
+]]
 
