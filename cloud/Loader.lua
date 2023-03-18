@@ -10,7 +10,7 @@ local tableofplaceid = {
 	"9872472334",--evade
 	"8054462345",--michaelszombies
 	"6839171747",--doors
-	"",--comming soon
+	"6516141723",--doors lobby
 	""
 }
 
@@ -28,7 +28,7 @@ local tableofplaceid = {
 		if table.find(tostring(game.PlaceId), "8054462345") then --michaelszombies
 			loadstring(game:HttpGet(("")))()
 		end
-		if table.find(tostring(game.PlaceId), "6839171747") then --doors
+		if table.find(tostring(game.PlaceId), "6516141723") or table.find(tostring(game.PlaceId), "6839171747") then --doors
 			loadstring(game:HttpGet(("https://raw.githubusercontent.com/HackerTheBestYTB/Script/test/DoorsNew.lua")))()
 		end
 	end
