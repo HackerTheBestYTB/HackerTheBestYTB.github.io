@@ -16,19 +16,19 @@ local tableofplaceid = {
 
 --function success()
 	if table.find(tableofplaceid, tostring(game.PlaceId)) then
-		if table.find(tableofplaceid, "2746687316") then --gutp
+		if table.find(tostring(game.PlaceId), "2746687316") then --gutp
 			loadstring(game:HttpGet(("https://raw.githubusercontent.com/HackerTheBestYTB/Script/test/GUTP.lua")))()
 		end
-		if table.find(tableofplaceid, "5000143962") then --spacesailors
+		if table.find(tostring(game.PlaceId), "5000143962") then --spacesailors
 			loadstring(game:HttpGet(("")))()
 		end
-		if table.find(tableofplaceid, "9872472334") then --evade
+		if table.find(tostring(game.PlaceId), "9872472334") then --evade
 			loadstring(game:HttpGet(("")))()
 		end
-		if table.find(tableofplaceid, "8054462345") then --michaelszombies
+		if table.find(tostring(game.PlaceId), "8054462345") then --michaelszombies
 			loadstring(game:HttpGet(("")))()
 		end
-		if table.find(tableofplaceid, "6839171747") then --doors
+		if table.find(tostring(game.PlaceId), "6839171747") then --doors
 			loadstring(game:HttpGet(("https://raw.githubusercontent.com/HackerTheBestYTB/Script/test/DoorsNew.lua")))()
 		end
 	end
